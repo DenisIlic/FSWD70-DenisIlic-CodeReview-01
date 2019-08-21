@@ -1,0 +1,131 @@
+/* STYLES & STYLE OVERRIDES FROM MAIN CSS */
+/* color palette: 
+   pink: #ffc7c7
+   lightpink: #ffe2e2
+   babyblue: #defcfc
+   white: #f6f6f6
+   blue: #a6e3e9 */
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+#logo {
+    display: flex;
+    background-color: #ECEDED;
+    align-items: center;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5em;
+}
+
+#logo img,
+h2 {
+    display: inline;
+}
+
+#logo img {
+    width: 30%;
+}
+
+#logo h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0.125rem 0.125rem #ffe2e2;
+}
+
+nav {
+    background-color: #653C3D;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+li a:hover {
+    text-shadow: 0.125rem 0.125rem #ffe2e2;
+}
+
+/* Footer */
+
+hr {
+    border: 0.2rem solid;
+    color: #a6e3e9;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.75rem;
+}
+
+footer img {
+    width: 20%;
+}
+
+
+/* MAIN CONTENT */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.about,
+.image {
+    width: 45%;
+    margin: 1rem;
+    border: 0.2rem solid black;
+}
+
+.about {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 1rem;
+}
+
+.about p {
+    line-height: 200%
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: black;
+}
+
+.image p {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+}

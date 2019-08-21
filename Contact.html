@@ -1,49 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-				<meta charset="utf-8">
-				<link rel="stylesheet" type="text/css" href="style3.css">
-</head>
-            <!-- Logo with Text -->
-<header>
-        <div class="container">
-            <img src="codefactory-vienna-logo.png" alt="codefactory.png" class="flex-item">
-            
-            <h1 class="flex-item">Contact</h1>
-        </div>
-</header>
-            <!-- Navigation Bar -->
-<body>
-    
-<ul>
-    <li><a class="active" href="CodeReview_DenisIlic_01.html">Home</a></li>
-    <li><a href="About-Me.html">About me</a></li>
-    <li><a href="Blog.html">Blog</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-</ul>   
-        
-                <!-- Text -->
-    <h1 class="color" align="center">Want to know more?</h1>
-    
+<html lang="en">
 
-    
-<div>
-    <p align="center">&#9993; <b>ilic.denis@gmx.at</b></p>
-    
-    <p align="center">&#9990; <b>+43 69918563352</b></p>
-    
-    
-</div>
-                <!-- Footer with Logo -->   
-<div id="footer"></div>
-    
-<footer id="logo">
-    
-    
-            <img src="codefactory-vienna-logo.png" alt="codefactory.png">
-    <p id="txt"><b>Denis Ilic-CodeFactory 2019</b></p>
-    
-</footer>   
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- HEADER AND NAV -->
+        <header>
+            <div id="logo">
+                <img src="img/codefactory-vienna-logo.png" alt="logo">
+                <h2>Denis Ilic - I am a future Full Stack Web Developer</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="CodeReview_DenisIlic_01.html">Home</a></li>
+                    <li><a href="About-Me.html">About Me</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- INFORMATION -->
+        <div class="flex">
+            <div id="info">
+                <h1>Dear Denis,</h1>
+            </div>
+            <!-- FORM -->
+            <div id="form">
+                <form action="action_page.php">
+                    First name:<br>
+                    <input type="text" name="firstname" placeholder="Your First Name"><br>
+                    Last name:<br>
+                    <input type="text" name="lastname" placeholder="Your Last Name"><br />
+                    Email:<br>
+                    <input type="text" name="email" placeholder="Your Email"><br />
+                    <br />
+                    Message me: <br />
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <br />
+                    <br />
+                    <input type="submit" value="Submit your message">
+                </form>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <hr>
+            </hr>
+            <img src="img/codefactory-vienna-logo.png" alt="logo">
+            <p>Denis Ilic - CodeFactory 2019</p>
+        </footer>
+    </div>
 </body>
+
 </html>
     
